@@ -1,0 +1,70 @@
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the cards */
+    padding: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Set a width for cards */
+    overflow: hidden; /* Prevent overflow */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .card-img img {
+    width: 100%; /* Make image responsive */
+    height: 50%; /* Maintain aspect ratio */
+  }
+  
+  .pro-img {
+    display: flex;
+    justify-content: center; /* Center profile image */
+    margin-top: -40px; /* Position profile image over card */
+  }
+  
+  .pro-img img {
+    width: 80px; /* Set a fixed width for profile image */
+    height: 80px; /* Set a fixed height for profile image */
+    border-radius: 50%; /* Make profile image circular */
+    border: 2px solid #fff; /* Add a border */
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center; /* Center the name */
+  }
+  
+  p {
+    font-size: 0.9em;
+    text-align: center; /* Center description */
+    padding: 0 10px; /* Add some padding */
+    color: #666; /* Change text color */
+  }
+  
+  button {
+    background: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 10px;
+    display: block; /* Center button */
+    width: calc(100% - 20px); /* Full width minus padding */
+    transition: background 0.3s; /* Smooth background transition */
+  }
+  
+  button:hover {
+    background: #0056b3; /* Darken on hover */
+  }
+  
